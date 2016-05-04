@@ -75,10 +75,14 @@ html {
   	width:100%;
   }
   #header h1 {
-  	font-size: 8em;
+  	font-size: 7em;
   }
 
   #header h2, #header h3, #header h4 {
   	font-size: 1.5em;
+  }
+
+  #fixbar {
+	font-size:1em;
   }
 }
