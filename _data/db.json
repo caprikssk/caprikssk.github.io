@@ -1,4 +1,14 @@
 {
+  "header": {
+    "acronym": "MLLS",
+    "subtitle": "3rd Workshop on",
+    "title": "Machine Learning in Life Sciences",
+    "info": [
+      "11 september 2015",
+      "Porto, Portugal"
+    ],
+    "organizedUnder": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 2015"
+    },
   "chairs": [
     "Bartosz Krawczyk, Wroclaw University of Technology, Poland",
     "Prof. Michał Woźniak, Wroclaw University of Technology, Poland"
