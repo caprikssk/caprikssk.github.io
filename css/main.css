@@ -1,3 +1,84 @@
 h1,h2,h3,h4,h5,h6 {
 	color: #03A752;	
 }
+
+html {
+	border-top:5px solid #00a651;
+}
+
+#fixbar
+{
+	-webkit-transition-duration: .5s; /* Safari */
+	    transition-duration: .5s;
+	color:#00a651;
+	font-weight:800;
+	font-size:1.5em;
+	position:fixed;
+	top:0;
+	background:rgba(255,255,255,.95);
+	width:920px;
+	padding: .25em .5em;
+	border-bottom:1px solid;
+	opacity:0;
+	z-index: 100;
+	width: 100%;
+	text-align: center;
+}
+
+#fixbar span {
+	font-weight: 400;
+}
+
+#header {
+	margin-top: 5rem;
+	margin:auto;
+	margin-top: 5rem;
+	width: 48rem;
+	margin-bottom: 5rem;
+}
+
+#header h1{
+	text-align: center;
+	font-weight: 800;
+	font-size: 12em;
+	line-height: 16rem;
+}
+
+#header h2{
+	text-align: right;
+	color: #555;
+	line-height: 2rem;
+	font-size: 2.1em;
+}
+
+#header h3 {
+	line-height: 2rem;
+	text-align: right;
+	font-weight: 600;
+	font-size: 2.1em;
+}
+
+#header h4 {
+	line-height: 2rem;
+	text-align: right;
+	font-style: italic;
+}
+
+#header h6 {
+	text-align: left;
+	color:#555;
+	margin-bottom: 0;
+}
+
+@media (max-width: 550px) {
+  #header {
+  	width:100%;
+  }
+  #header h1 {
+  	font-size: 8em;
+  }
+
+  #header h2, #header h3, #header h4 {
+  	font-size: 1.5em;
+  }
+}
