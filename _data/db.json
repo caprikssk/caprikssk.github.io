@@ -1,17 +1,20 @@
 {
   "header": {
     "acronym": "MLLS",
-    "subtitle": "3rd Workshop on",
+    "subtitle": "4th Workshop on",
     "title": "Machine Learning in Life Sciences",
     "info": [
-      "11 september 2015",
-      "Porto, Portugal"
+      "23 September 2016",
+      "Riva del Garda, Italy"
     ],
-    "organizedUnder": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 2015"
-    },
+    "organizedUnder": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 2016"
+  },
   "chairs": [
-    "Bartosz Krawczyk, Wroclaw University of Technology, Poland",
-    "Prof. Michał Woźniak, Wroclaw University of Technology, Poland"
+    "Dr. Bartosz Krawczyk, Wroclaw University of Technology, Poland",
+    "Prof. Michał Woźniak, Wroclaw University of Technology, Poland",
+    "Prof. Krzysztof Cios, Virginia Commonwealth University, USA",
+    "Prof. Igor Podolak, Jagiellonian University, Poland",
+    "Prof. Tomislav Smuc, Rudjer Boskovic Institute, Croatia"
   ],
   "description": [
     "Life sciences, ranging from medicine, biology and genetics to biochemistry and pharmacology have developed rapidly in previous years. Computerization of those domains allowed to gather and store enormous collections of data. Analysis of such vast amounts of information without any support is impossible for human being. Therefore recently machine learning and pattern recognition methods have attracted the attention of broad spectrum of experts from life sciences domain.",
@@ -27,24 +30,7 @@
     "methods for incorporating background knowledge into machine learning systems;",
     "recent developments in complex data pre-processing: feature selection, noise filtering, class imbalance etc;"
   ],
-  "challenge": {
-    "description": "Together with The Group of Machine Learning Research at the Jagiellonian University in Cracow, represented by Wojciech Czarnecki, Igor Podolak, Jacek Tabor in cooperation with the Institute of Pharmacology, Polish Academy of Sciences, Cracow, represented by Andrzej Bojarski, Sabina Smusz we are proud to present a competition with objective to predict the activity of selected chemical structures against a set of given proteins. The details of the challenge, together with dataset and submission system can be found here:",
-    "hyperlink": "http://competition.gmum.net/",
-    "awards": [
-      "Registration fee for the ECML-PKDD 2015 conference (whole conference) will be reimbursed.",
-      "Authors will give an oral presentation of their method during workshop and paper describing their approach will appear in the proceedings.",
-      "Extended version of the paper will be included in the post workshop special issue of a journal (with IF>1)."
-    ]
-  },
   "sections": [
-    {
-      "title": "Workshop funding",
-      "body": [
-        "This Workshop will be supported by EC under FP7, Coordination and Support Action, Grant Agreement Number 316097, ENGINE European Research Centre of Network Intelligence for Innovation Enhancement.",
-        "The main goal of the project is to enhance the research potential of the ENGINE Centre, an integral part of the Wroclaw University of Technology. The idea of ENGINE – becoming a driving force for cooperation between academic researchers and other various institutions, including industrial and governmental.",
-        "We see the organization of this Workshop under European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 2015 as an integral part of ENGINE Centre plans, as a possibility to increase the collaboration between the ENGINE Centre and external researchers and as a way of both sharing the research findings of ENGINE Centre participants and enhancing their potential by most valuable discussions with other participants of The 9th IEEE International Conference on Big Data Science and Engineering (IEEE BigDataSE-15). To contribute to the success of the Workshop, the ENGINE Centre will finance the conference fee for 10 authors of the best papers accepted for this Workshop (up to 500 euro each). This will most certainly be an attractive opportunity for researches who want to disseminate their high-quality research findings and will attract valuable participants to both the Workshop and the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 2015."
-      ]
-    },
     {
       "title": "Journal Special Issue",
       "body": [
@@ -56,32 +42,35 @@
     {
       "name": "PC Commitee",
       "members": [
-        "Robert Burduk, Wroclaw University of Technology, Poland",
         "Bogusław Cyganek, AGH University of Science and Technology, Poland",
         "Wojciech Czarnecki, Jagiellonian University, Poland",
+        "Saso Dzeroski, Jozef Stefan Institute, Slovenia",
+        "Mikel Galar, Public University of Navarra, Spain",
+        "Dragan Gamberger, Rudjer Boskovic Institute, Croatia",
         "Manuel Graña, University of the Basque Country, Spain",
-        "Konrad Jackowski, Wroclaw University of Technology, Poland",
+        "Dragi Kocev, Jozef Stefan Institute, Slovenia",
+        "Lukasz Kurgan, Virginia Commonwealth University, USA",
         "Katarzyna Wegrzyn-Wolska, ESIGETEL, France",
         "Mohamed Medhat Gaber, Robert Gordon University, UK",
-        "Igor Podolak, Jagiellonian University, Poland",
         "Jose Antonio Saez, University of Granada, Spain",
-        "Alexander Savio, University of the Basque Country, Spain",
-        "Jacek Tabor, Jagiellonian University, Poland"
+        "Fran Supek; Centre for Genomic Regulation, Spain",
+        "Jacek Tabor, Jagiellonian University, Poland",
+        "Isaac Triguero, Ghent University, Belgium"
       ]
     }
   ],
   "dates": [
-  	{
-  		"date": "June 22, 2015",
-  		"description": "Workshop paper submission deadline"
-  	},
-  	{
-  		"date": "July 13, 2015",
-  		"description": "Workshop paper acceptance notification"
-  	},
-  	{
-  		"date": "July 27, 2015",
-  		"description": "Workshop paper camera-ready deadline"
-  	}
+    {
+      "date": "July 4, 2016",
+      "description": "Workshop paper submission deadline"
+    },
+    {
+      "date": "July 25, 2016",
+      "description": "Workshop paper acceptance notification"
+    },
+    {
+      "date": "August 8, 2016",
+      "description": "Workshop paper camera-ready deadline"
+    }
   ]
 }

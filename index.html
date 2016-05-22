@@ -48,24 +48,6 @@ layout: default
 		</ul>
 	</div>
 	<div class="six columns">
-		<h3>Challenge</h3>
-		<p>{{ site.data.db.challenge.description }}</p>
-		<a class="button button-primary u-full-width" href="">Try yourself in the challenge</a>
-		<p>
-			<h5>Awards</h5>
-			<ul>
-				{% for award in site.data.db.challenge.awards %}
-				<li>{{ award }}</li>
-				{% endfor %}
-			</ul>
-		</p>
-	</div>
-</div>
-
-<hr>
-
-<div class="row">
-	<div class="six columns">
 		{% for commitee in site.data.db.commitees %}
 
 		<h3>{{ commitee.name }}</h3>
@@ -75,7 +57,13 @@ layout: default
 			{% endfor %}
 		</ul>
 		{% endfor %}
+	</div>
+</div>
 
+<hr>
+
+<div class="row">
+	<div class="six columns">
 		<h3>Important dates</h3>
 		<ul>
 			{% for date in site.data.db.dates %}
