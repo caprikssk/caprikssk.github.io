@@ -32,6 +32,12 @@
   ],
   "sections": [
     {
+      "title": "Submissions",
+      "body": [
+        "The page limit is 12 pages, format as in <a href='https://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0'>standard Springer LNCS</a>. Please submit your work directly to <a href='mailto:bartosz.krawczyk@pwr.edu.pl'>Bartosz Krawczyk via e-mail</a>."
+      ]
+    },
+    {
       "title": "Journal Special Issue",
       "body": [
         "Extended versions of accepted papers will be invited to special issue of a journal (with IF>1, we are currently finishing negotiations with a potential venue)."
@@ -61,7 +67,7 @@
   ],
   "dates": [
     {
-      "date": "July 4, 2016",
+      "date": "July 18, 2016",
       "description": "Workshop paper submission deadline"
     },
     {
