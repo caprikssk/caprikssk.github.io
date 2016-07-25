@@ -6,6 +6,15 @@ html {
 	border-top:5px solid #00a651;
 }
 
+img.face {
+	width:100%;
+	border-radius:50%;
+}
+
+div.rightbordered{
+	border-right: 1px solid #EFEFEF;
+}
+
 #fixbar
 {
 	-webkit-transition-duration: .5s; /* Safari */

@@ -44,6 +44,12 @@
       ]
     }
   ],
+  "plenary" : {
+    "name": "Jerzy Stefanowski",
+    "face": "http://ideal2015.pwr.edu.pl/img/stefanowski.jpg",
+    "biogram": "Jerzy Stefanowski is a professor of Poznan University of Technology, Institute of Computing Science. He received his Ph.D. and Habilitation degrees from the same University. His research interests include knowledge discovery, data mining, machine learning and intelligent decision support. Major results are concerned with: induction of various types of rules, multiple classifiers, mining class - imbalanced data, incremental learning from evolving data streams, data preprocessing, generalizations of rough set theory, descriptive clustering of documents and medical applications. He is the author and co-author of over 170 research papers and 2 books. In addition to his research activities he served in a number of organizational capacities, as e.g.: Former President of Wielkopolska Regional Branch of Polish Information Processing Society (2006-2011), current member of the Executive Board of Polish Artificial Intelligence Society; co-founder and co-leader of Polish Special Interest Group on Machine Learning. Moreover, since 2012 he is the Editor in Chief of Foundations of Computing and Decision Science journal.",
+    "title": "Evaluation of Interestingness and Interaction of Attribute-Value Conditions in Discovered Rules: Applications in Medical Data Analysis"
+  },
   "commitees": [
     {
       "name": "PC Commitee",
