@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-{% assign db = site.data.db_2016 %}
+{% assign db = site.data.db_2015 %}
+
 <div id='fixbar'>
-  Machine Learning in Life Sciences <span>— 23.09.2016, Riva del Garda, Italy</span>
+  Machine Learning in Life Sciences <span>— 11.09.2015, Porto, Portugal</span>
   </div>
 <div class="container">
 
@@ -54,6 +55,24 @@ layout: default
 		</ul>
 	</div>
 	<div class="six columns">
+		<h3>Challenge</h3>
+		<p>{{ db.challenge.description }}</p>
+		<a class="button button-primary u-full-width" href="">Try yourself in the challenge</a>
+		<p>
+			<h5>Awards</h5>
+			<ul>
+				{% for award in db.challenge.awards %}
+				<li>{{ award }}</li>
+				{% endfor %}
+			</ul>
+		</p>
+	</div>
+</div>
+
+<hr>
+
+<div class="row">
+	<div class="six columns">
 		{% for commitee in db.commitees %}
 
 		<h3>{{ commitee.name }}</h3>
@@ -63,36 +82,7 @@ layout: default
 			{% endfor %}
 		</ul>
 		{% endfor %}
-	</div>
-</div>
 
-<hr>
-
-<div class="row">
-	<div class="twelve columns">
-		<h3>Plenary speaker</h3>
-	</div>
-</div>
-
-<div class="row">
-	<div class="three columns rightbordered">
-		<img class = "face" src="{{ db.plenary.face }}">
-		<center>
-			<h6><strong>{{ db.plenary.name }}</strong></h6>
-		</center>
-	</div>
-	<div class="nine columns">
-		<h6><strong><em>{{ db.plenary.title }}</em></strong></h6>
-		<p>
-		{{ db.plenary.biogram }}
-		</p>
-	</div>
-</div>
-
-<hr>
-
-<div class="row">
-	<div class="six columns">
 		<h3>Important dates</h3>
 		<ul>
 			{% for date in db.dates %}
