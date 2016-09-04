@@ -44,6 +44,30 @@ layout: default
 
 <hr>
 
+<h3>Programme</h3>
+<div class="programme">
+{% for session in db.programme %}
+<div class="session">
+<h5><strong>{{ session.title }}:</strong> {{ session.time }}</h5>
+{% for item in session.items %}
+<div class="row">
+  <div class="three columns time">
+    <strong>{{ item.time }}</strong>
+  </div>
+  <div class="nine columns">
+    {{ item.title }}
+    {% if item.subtitle != "" %}
+      <br><em>{{ item.subtitle }}</em>
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
+</div>
+{% endfor %}
+</div>
+
+<hr>
+
 <div class="row">
 	<div class="six columns">
 		<h3>Topics of interest</h3>

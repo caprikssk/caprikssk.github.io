@@ -84,5 +84,64 @@
       "date": "August 8, 2016",
       "description": "Workshop paper camera-ready deadline"
     }
+  ],
+  "programme": [
+    {
+      "title": "Session 1",
+      "time": "10:00 — 11.25",
+      "items": [
+        {
+          "time": "10:00 — 10:10",
+          "title": "Welcome message from the Workshop Chairs",
+          "subtitle": ""
+        },
+        {
+          "time": "10:10 — 11:10",
+          "title": "Invited talk by prof. Jerzy Stefanowski",
+          "subtitle": "Evaluation of Interestingness and Interaction of Attribute-Value Conditions in Discovered Rules: Applications in Medical Data Analysis"
+        },
+        {
+          "time": "11:10 — 11:25",
+          "title": "Open panel discussion",
+          "subtitle": ""
+        }
+      ]
+    },
+    {
+      "title": "Session 2",
+      "time": "11:40 — 13:40",
+      "items": [
+        {
+          "time": "11:40 — 12:00",
+          "title": "S. Polsterl, N. Navab, A. Katouzian",
+          "subtitle": "​An Efficient Training Algorithm for Kernel Survival Support Vector Machines"
+        },
+        {
+          "time": "12:00 — 12:20",
+          "title": "​P. Rubbens, R. Props, N. Boon, W. Waegeman",
+          "subtitle": "Learning in silico communities to perform flow cytometric identification of synthetic bacterial communities"
+        },
+        {
+          "time": "12:20 — 12:40",
+          "title": "​S. Nakoneczny, M. Smieja",
+          "subtitle": "Natural language processing methods in biological activity prediction"
+        },
+        {
+          "time": "12:40 — 13:00",
+          "title": "​V. Vidulin, M. Brbic, F. Supek, T. Smuc",
+          "subtitle": "Evaluation of Fusion Approaches in Large-scale Bio-annotation Setting"
+        },
+        {
+          "time": "13:00 — 13:20",
+          "title": "​B. Krawczyk, M. Wozniak",
+          "subtitle": "Online Weighted Naive Bayes for Automated Fetal State Assessment"
+        },
+        {
+          "time": "13:20 — 13:40",
+          "title": "​P. Ksieniewicz, M.Wozniak",
+          "subtitle": "Imbalance medical data classification using Exposer Classifier Ensemble Medical Data Analysis"
+        }
+      ]
+    }
   ]
 }

@@ -1,5 +1,5 @@
 h1,h2,h3,h4,h5,h6 {
-	color: #03A752;	
+	color: #03A752;
 }
 
 html {
@@ -105,4 +105,17 @@ div.rightbordered{
 .footer img
 {
 	margin: 3rem;
+}
+
+.programme h5{
+  margin-top:0;
+  margin-bottom: .125rem;
+}
+
+.session {
+  margin-bottom: 2rem;
+}
+
+.session .row {
+  margin-bottom: .125rem;
 }
