@@ -14,7 +14,9 @@ img.face {
 div.rightbordered{
 	border-right: 1px solid #EFEFEF;
 }
-
+a {
+  color: #00a651;
+}
 #fixbar
 {
 	-webkit-transition-duration: .5s; /* Safari */
