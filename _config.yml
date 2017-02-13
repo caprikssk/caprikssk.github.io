@@ -6,12 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Workshop on Machine Learning in Life Sciences
+title: Workshop on Computational Aspects of Pattern Recognition and Computer Vision with Neural Systems
 email: michal.wozniak@pwr.edu.pl
-description: > # this means to ignore newlines until "baseurl:"
-  Life sciences, ranging from medicine, biology and genetics to biochemistry and pharmacology have developed rapidly in previous years. Computerization of those domains allowed to gather and store enormous collections of data. Analysis of such vast amounts of information without any support is impossible for human being. Therefore recently machine learning and pattern recognition methods have attracted the attention of broad spectrum of experts from life sciences domain.
+description: > # Computational requirements on information processing systems are nowadays enormous - not only huge amounts of data needs to be processed and classified but also the systems need to deal with massive data usually in the form of data streams and frequently real-time processing requirements. On the other hand, neural systems proved their great potential, especially in pattern recognition and computer vision.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mlls.github.io" # the base hostname & protocol for your site
+url: "http://caprikssk.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

@@ -1,13 +1,14 @@
 {
+  "color": "#0000FF",
   "header": {
-    "acronym": "MLLS",
-    "subtitle": "4th Workshop on",
-    "title": "Machine Learning in Life Sciences",
+    "acronym": "CAPRI",
+    "subtitle": "Workshop on",
+    "title": "Computational Aspects of Pattern Recognition and Computer Vision with Neural Systems",
     "info": [
-      "23 September 2016",
-      "Riva del Garda, Italy"
+      "14—19 May 2016",
+      "Anchorage, Alaska, USA"
     ],
-    "organizedUnder": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 2016"
+    "organizedUnder": "the framework of the International Joint Conference on Neural Networks (IJCNN 2017) "
   },
   "chairs": [
     "Dr. Bartosz Krawczyk, Wroclaw University of Technology, Poland",
