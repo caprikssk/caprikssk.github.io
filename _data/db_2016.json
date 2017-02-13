@@ -1,148 +1,103 @@
 {
-  "color": "#0000FF",
-  "header": {
-    "acronym": "CAPRI",
-    "subtitle": "Workshop on",
-    "title": "Computational Aspects of Pattern Recognition and Computer Vision with Neural Systems",
-    "info": [
-      "14—19 May 2016",
-      "Anchorage, Alaska, USA"
+    "color": "#0000FF",
+    "header": {
+        "acronym": "CAPRI",
+        "subtitle": "Workshop on",
+        "title": "Computational Aspects of Pattern Recognition and Computer Vision with Neural Systems",
+        "info": [
+            "14—19 May 2016",
+            "Anchorage, Alaska, USA"
+        ],
+        "organizedUnder": "the framework of the International Joint Conference on Neural Networks (IJCNN 2017) "
+    },
+    "description": [
+        "Computational requirements on information processing systems are nowadays enormous - not only huge amounts of data needs to be processed and classified but also the systems need to deal with massive data usually in the form of data streams and frequently real-time processing requirements. On the other hand, neural systems proved their great potential, especially in pattern recognition and computer vision. However, all of the above rely heavily on efficient algorithms and continuously improved implementations. Therefore computational aspects become a key issue in pattern recognition and computer vision.",
+        "In this workshop we wish to collect researchers and practitioners to share interesting research topics and ideas especially in the area of computational aspects of pattern recognition and computer vision processed on all types of neural systems, starting from algorithm design and up to implementations and applications, encountered in computer vision and pattern recognition computer vision for information mining, especially form from massive data streams and new neural architectures."
     ],
-    "organizedUnder": "the framework of the International Joint Conference on Neural Networks (IJCNN 2017) "
-  },
-  "chairs": [
-    "Dr. Bartosz Krawczyk, Wroclaw University of Technology, Poland",
-    "Prof. Michał Woźniak, Wroclaw University of Technology, Poland",
-    "Prof. Krzysztof Cios, Virginia Commonwealth University, USA",
-    "Prof. Igor Podolak, Jagiellonian University, Poland",
-    "Prof. Tomislav Smuc, Rudjer Boskovic Institute, Croatia"
-  ],
-  "description": [
-    "Life sciences, ranging from medicine, biology and genetics to biochemistry and pharmacology have developed rapidly in previous years. Computerization of those domains allowed to gather and store enormous collections of data. Analysis of such vast amounts of information without any support is impossible for human being. Therefore recently machine learning and pattern recognition methods have attracted the attention of broad spectrum of experts from life sciences domain.",
-    "The aim of this Workshop is to stress the importance of interdisciplinary collaboration between life and computer sciences and to provide an international forum for both practitioners seeking new cutting-edge tools for solving their domain problems and theoreticians seeking interesting and real-life applications for their novel algorithms. We are interested in novel machine learning technologies, designed to tackle complex medical, biological, chemical or environmental data that take into consideration the specific background knowledge and interactions between the considered problems. We look for novel applications of machine learning and pattern recognition tools to contemporary life sciences problems, that will shed light on their strengths and weaknesses. We are interested in new methods for data visualization and methods for accessible presentation of results of machine learning analysis to life scientists. We welcome new findings in the intelligent processing of non-stationary medical, biological and chemical data and in proposals for efficient fusion of information coming from multiple sources. Papers on efficient analysis and classification of bid data (understood as both massive volumes and high-dimensionality problems) will be of special interest to this Workshop."
-  ],
-  "topics": [
-    "novel machine learning and pattern recognition models for analyzing medical, biological and chemical data;",
-    "new models for efficient, fast and effective processing of big, massive and multi-dimensional life sciences data;",
-    "intelligent methods for analysis of microarrays, gene and protein modeling, biological networks, docking etc;",
-    "automatic drug design with machine learning methods, QSAR / QSPR modeling;",
-    "methods for data visualization and accessible presentation of machine learning results / findings to domain experts (doctors, biologists, chemists etc);",
-    "new developments in ensemble, compound and hybrid classification for life sciences;",
-    "methods for incorporating background knowledge into machine learning systems;",
-    "recent developments in complex data pre-processing: feature selection, noise filtering, class imbalance etc;"
-  ],
-  "sections": [
-    {
-      "title": "Submissions",
-      "body": [
-        "The page limit is 12 pages, format as in <a href='https://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0'>standard Springer LNCS</a>. Please submit your work directly to <a href='mailto:bartosz.krawczyk@pwr.edu.pl'>Bartosz Krawczyk via e-mail</a>."
-      ]
-    },
-    {
-      "title": "Journal Special Issue",
-      "body": [
-        "Extended versions of accepted papers will be invited to special issue of a journal (with IF>1, we are currently finishing negotiations with a potential venue)."
-      ]
-    }
-  ],
-  "plenary" : {
-    "name": "Jerzy Stefanowski",
-    "face": "http://ideal2015.pwr.edu.pl/img/stefanowski.jpg",
-    "biogram": "Jerzy Stefanowski is a professor of Poznan University of Technology, Institute of Computing Science. He received his Ph.D. and Habilitation degrees from the same University. His research interests include knowledge discovery, data mining, machine learning and intelligent decision support. Major results are concerned with: induction of various types of rules, multiple classifiers, mining class - imbalanced data, incremental learning from evolving data streams, data preprocessing, generalizations of rough set theory, descriptive clustering of documents and medical applications. He is the author and co-author of over 170 research papers and 2 books. In addition to his research activities he served in a number of organizational capacities, as e.g.: Former President of Wielkopolska Regional Branch of Polish Information Processing Society (2006-2011), current member of the Executive Board of Polish Artificial Intelligence Society; co-founder and co-leader of Polish Special Interest Group on Machine Learning. Moreover, since 2012 he is the Editor in Chief of Foundations of Computing and Decision Science journal.",
-    "title": "Evaluation of Interestingness and Interaction of Attribute-Value Conditions in Discovered Rules: Applications in Medical Data Analysis"
-  },
-  "commitees": [
-    {
-      "name": "PC Commitee",
-      "members": [
-        "Bogusław Cyganek, AGH University of Science and Technology, Poland",
-        "Wojciech Czarnecki, Jagiellonian University, Poland",
-        "Saso Dzeroski, Jozef Stefan Institute, Slovenia",
-        "Mikel Galar, Public University of Navarra, Spain",
-        "Dragan Gamberger, Rudjer Boskovic Institute, Croatia",
-        "Manuel Graña, University of the Basque Country, Spain",
-        "Dragi Kocev, Jozef Stefan Institute, Slovenia",
-        "Lukasz Kurgan, Virginia Commonwealth University, USA",
-        "Katarzyna Wegrzyn-Wolska, ESIGETEL, France",
-        "Mohamed Medhat Gaber, Robert Gordon University, UK",
-        "Jose Antonio Saez, University of Granada, Spain",
-        "Fran Supek; Centre for Genomic Regulation, Spain",
-        "Jacek Tabor, Jagiellonian University, Poland",
-        "Isaac Triguero, Ghent University, Belgium"
-      ]
-    }
-  ],
-  "dates": [
-    {
-      "date": "July 18, 2016",
-      "description": "Workshop paper submission deadline"
-    },
-    {
-      "date": "July 25, 2016",
-      "description": "Workshop paper acceptance notification"
-    },
-    {
-      "date": "August 8, 2016",
-      "description": "Workshop paper camera-ready deadline"
-    }
-  ],
-  "programme": [
-    {
-      "title": "Session 1",
-      "time": "10:00 — 11.25",
-      "items": [
-        {
-          "time": "10:00 — 10:10",
-          "title": "Welcome message from the Workshop Chairs",
-          "subtitle": ""
+    "topics": [
+        "Parallel implementations of pattern recognition and computer vision neural systems",
+        "Deep learning – techniques and new achievements in computer vision with special stress on image enhancement for pattern recognition",
+        "Real-time neural systems, their implementation and application",
+        "Rapid neural system development – new directions and platforms",
+        "Graphic card (GPU) implementations of pattern recognition and computer vision systems",
+        "Hardware implementations (FPGA) of pattern recognition and computer vision systems",
+        "New algorithms for efficient computations on pattern recognition and computer vision neural systems",
+        "Tips and tricks in pattern recognition and computer vision algorithms",
+        "Industrial applications of pattern recognition and computer vision, especially with dedicated streaming data",
+        "Computational aspects in all kinds of massive and streaming data",
+        "Pattern recognition in computer vision, multimedia, and image processing",
+        "Multilinear and tensor approach to data representation and pattern recognition",
+        "Active learning for neural based pattern recognition and computer vision",
+        "Hyperspectral image processing",
+        "Pattern recognition in hyperspectral images",
+        "Visualisation and sonnification for high dimensional data"
+    ],
+    "sections": [{
+            "title": "Submissions",
+            "body": [
+                "Accepted papers will be published in on-line proceedings with ISBN. The page limit is 12 pages, format as in <a href='https://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0'>standard Springer LNCS</a>.",
+                "Please submit your work via <a href='https://easychair.org/conferences/?conf=capri2017'>easychair</a>."
+            ]
         },
         {
-          "time": "10:10 — 11:10",
-          "title": "Invited talk by prof. Jerzy Stefanowski",
-          "subtitle": "Evaluation of Interestingness and Interaction of Attribute-Value Conditions in Discovered Rules: Applications in Medical Data Analysis"
-        },
-        {
-          "time": "11:10 — 11:25",
-          "title": "Open panel discussion",
-          "subtitle": ""
+            "title": "Contact",
+            "body": [
+                "Boguslaw Cyganek<br><a href='mailto:cyganek@agh.edu.pl'>cyganek@agh.edu.pl</a><br><a href='http://home.agh.edu.pl/~cyganek/'>http://home.agh.edu.pl/~cyganek/</a>"
+            ]
         }
-      ]
-    },
-    {
-      "title": "Session 2",
-      "time": "11:40 — 13:40",
-      "items": [
-        {
-          "time": "11:40 — 12:00",
-          "title": "S. Polsterl, N. Navab, A. Katouzian",
-          "subtitle": "​An Efficient Training Algorithm for Kernel Survival Support Vector Machines"
+    ],
+    "commitees": [{
+            "name": "Program Committee (tentative)",
+            "members": [
+                "Boguslaw Cyganek, AGH University of Science and Technology, Poland - chair",
+                "Michal Wozniak, Wroclaw University of Science and Technology, Poland - chair",
+                "Tomasz Andrysiak, University of Technology and Life Sciences, Poland",
+                "Colin Bellinger, University of Alberta, Canada",
+                "Robert Burduk – Wroclaw University of Science and Technology, Poland",
+                "Alberto Cano, Virginia Commonwealth University, USA",
+                "Alberto Fernandez, University of Granda, Spain",
+                "Mikel Galar, Public University of Navarra, Spain",
+                "Manuel Graña, University of the Basque Country, Spain",
+                "Dariusz Jankowski, Wroclaw University of Science and Technology, Poland",
+                "Bartosz Krawczyk, Virginia Commonwelth University, Richmond, USA",
+                "Paweł Ksieniewicz, Wroclaw University of Science and Technology, Poland",
+                "Piotr Porwik, University of Silesia, Poland",
+                "Alex Savio, Klinikum rechts der Isar, TUM, München",
+                "Radek Silhavy, Tomas Bata University in Zlin, Czech Republic",
+                "Dragan Simic, University of Novi Sad, Serbia",
+                "Isaac Triguero, University of Nottingham, UK",
+                "Richard Zurawski, ISA Group, CA, USA"
+            ]
         },
         {
-          "time": "12:00 — 12:20",
-          "title": "​P. Rubbens, R. Props, N. Boon, W. Waegeman",
-          "subtitle": "Learning in silico communities to perform flow cytometric identification of synthetic bacterial communities"
-        },
-        {
-          "time": "12:20 — 12:40",
-          "title": "​S. Nakoneczny, M. Smieja",
-          "subtitle": "Natural language processing methods in biological activity prediction"
-        },
-        {
-          "time": "12:40 — 13:00",
-          "title": "​V. Vidulin, M. Brbic, F. Supek, T. Smuc",
-          "subtitle": "Evaluation of Fusion Approaches in Large-scale Bio-annotation Setting"
-        },
-        {
-          "time": "13:00 — 13:20",
-          "title": "​B. Krawczyk, M. Wozniak",
-          "subtitle": "Online Weighted Naive Bayes for Automated Fetal State Assessment"
-        },
-        {
-          "time": "13:20 — 13:40",
-          "title": "​P. Ksieniewicz, M.Wozniak",
-          "subtitle": "Imbalance medical data classification using Exposer Classifier Ensemble Medical Data Analysis"
+            "name": "Organizing Committe",
+            "members": [
+                "Paweł Ksieniewicz, Wroclaw University of Science and Technology, Poland",
+                "Dariusz Jankowski, Wroclaw University of Science and Technology, Poland - chair",
+                "Michał Koziarski, Wroclaw University of Science and Technology, Poland",
+                "Jakub Nawała, AGH University of Science and Technology, Poland"
+            ]
         }
-      ]
-    }
-  ]
+    ],
+    "dates": [{
+            "description": "Paper submission",
+            "date": "February 28th, 2017"
+        },
+        {
+            "description": "Notification of papers’ acceptance/rejection",
+            "date": "March 8th, 2017"
+        },
+        {
+            "description": "Camera-ready papers",
+            "date": "March 15th, 2017"
+        },
+        {
+            "description": "Author registration",
+            "date": "March 20th, 2017"
+        },
+        {
+            "description": "Workshop sessions",
+            "date": "May 14th, 2017"
+        }
+    ]
 }

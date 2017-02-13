@@ -28,6 +28,7 @@ layout: default
 </div>
 -->
 
+{% if db.chairs %}
 <div class="row">
 	<div class="twelve columns">
 
@@ -39,45 +40,47 @@ layout: default
 		</ul>
 	</div>
 </div>
+{% endif %}
 
+{% if db.description %}
 <div class="row">
-
 	<div class="twelve columns">
 		<h3>Description</h3>
 		{% for paragraph in db.description %}
 		<p>{{ paragraph }}</p>
 		{% endfor %}
 	</div>
-
 </div>
-
 <hr>
+{% endif %}
 
+{% if db.programme %}
 <h3>Programme</h3>
 <div class="programme">
-{% for session in db.programme %}
-<div class="session">
-<h5><strong>{{ session.title }}:</strong> {{ session.time }}</h5>
-{% for item in session.items %}
-<div class="row">
-  <div class="three columns time">
-    <strong>{{ item.time }}</strong>
+  {% for session in db.programme %}
+  <div class="session">
+    <h5><strong>{{ session.title }}:</strong> {{ session.time }}</h5>
+    {% for item in session.items %}
+      <div class="row">
+        <div class="three columns time">
+          <strong>{{ item.time }}</strong>
+        </div>
+        <div class="nine columns">
+          {{ item.title }}
+          {% if item.subtitle != "" %}
+            <br><em>{{ item.subtitle }}</em>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
   </div>
-  <div class="nine columns">
-    {{ item.title }}
-    {% if item.subtitle != "" %}
-      <br><em>{{ item.subtitle }}</em>
-    {% endif %}
-  </div>
+  {% endfor %}
 </div>
-{% endfor %}
-</div>
-{% endfor %}
-</div>
-
 <hr>
+{% endif %}
 
 <div class="row">
+  {% if db.topics %}
 	<div class="six columns">
 		<h3>Topics of interest</h3>
 		<ul>
@@ -86,9 +89,10 @@ layout: default
 			{% endfor %}
 		</ul>
 	</div>
+  {% endif %}
+  {% if db.commitees %}
 	<div class="six columns">
 		{% for commitee in db.commitees %}
-
 		<h3>{{ commitee.name }}</h3>
 		<ul>
 			{% for member in commitee.members %}
@@ -97,10 +101,12 @@ layout: default
 		</ul>
 		{% endfor %}
 	</div>
+  {% endif %}
 </div>
 
 <hr>
 
+{% if db.plenary %}
 <div class="row">
 	<div class="twelve columns">
 		<h3>Plenary speaker</h3>
@@ -123,6 +129,7 @@ layout: default
 </div>
 
 <hr>
+{% endif %}
 
 <div class="row">
 	<div class="six columns">
