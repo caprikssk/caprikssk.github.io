@@ -5,7 +5,7 @@
         "subtitle": "Workshop on",
         "title": "Computational Aspects of Pattern Recognition and Computer Vision with Neural Systems",
         "info": [
-            "14—19 May 2016",
+            "14—19 May 2017",
             "Anchorage, Alaska, USA"
         ],
         "organizedUnder": "the framework of the International Joint Conference on Neural Networks (IJCNN 2017) "
@@ -81,20 +81,20 @@
         }
     ],
     "dates": [{
-            "description": "Paper submission",
-            "date": "February 28th, 2017"
+            "description": "Paper submission (extended)",
+            "date": "<del>February 28th, 2017</del> March 12th, 2017"
         },
         {
             "description": "Notification of papers’ acceptance/rejection",
-            "date": "March 8th, 2017"
+            "date": "<del>March 8th, 2017</del> March 19th, 2017"
         },
         {
             "description": "Camera-ready papers",
-            "date": "March 15th, 2017"
+            "date": "<del>March 15th, 2017</del> March 26th, 2017"
         },
         {
             "description": "Author registration",
-            "date": "March 20th, 2017"
+            "date": "<del>March 20th, 2017</del> March 26th, 2017"
         },
         {
             "description": "Workshop sessions",
