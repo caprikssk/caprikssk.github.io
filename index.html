@@ -139,6 +139,10 @@ layout: default
 			<li>{{ date.description }}: <strong>{{ date.date }}</strong></li>
 			{% endfor %}
 		</ul>
+
+    {% if db.proceedings %}
+  		<a href="{{db.proceedings}}"><h3>On-line Proceedings</h3></a>
+    {% endif %}
 	</div>
 
 	<div class="six columns">
